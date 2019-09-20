@@ -1,0 +1,32 @@
+body{
+  background-color: lime;
+  background-image: url('https://media2.giphy.com/media/uVLwJ093UeZgY/giphy.gif?cid=790b7611a57dcd429a6ad2d593c72266ee8f1e60a9ddfc09&rid=giphy.gif')
+
+}
+img{
+  display: flexbox;
+  justify-content: center;
+  border: 10px solid black;
+  border-radius: 5px;
+}
+#hidden{
+  visibility: hidden;
+}
+p{
+  background-color: lime;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+}
+label{
+  background-color: lime;
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+input{
+  padding: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
