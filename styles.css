@@ -13,6 +13,9 @@ img{
 }
 #hidden{
   visibility: hidden;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
 }
 p{
   background-color: lime;
