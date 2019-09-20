@@ -4,13 +4,18 @@ body{
 
 }
 img{
-  display: flexbox;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   border: 10px solid black;
   border-radius: 5px;
 }
 #hidden{
   visibility: hidden;
+}
+.mad{
+  position: absolute;
+  color: white;
 }
 p{
   background-color: lime;
@@ -20,6 +25,8 @@ p{
   font-size: 25px;
 }
 label{
+  display: flexbox;
+  justify-content: space-evenly;
   background-color: lime;
   padding: 15px;
   border: 1px solid black;
